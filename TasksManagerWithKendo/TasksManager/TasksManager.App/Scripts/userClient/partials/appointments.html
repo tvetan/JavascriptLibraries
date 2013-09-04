@@ -1,0 +1,19 @@
+﻿<div class="panel panel-default ">
+    <div class="panel-heading">Appointments</div>
+    <div class="panel-body">
+        <ol data-template="single-appointments" data-bind="source: appointments"></ol>
+    </div>
+
+    <input type="text" placeholder="subject" id="subject"/>
+    <input type="text" placeholder="appointmentDate" id="appointmentDate"/>
+    <input type="text" placeholder="duratation" id="duratation" />
+    <input type="text" placeholder="description" id="description" />
+    <a href="#/appointments/add">Add appointment</a>
+    <input type="text" id="appoinmentDate" />
+    <a href="#/appointments/filter">Filter appointment by date</a>
+</div>
+
+<script type="text/x-kendo-template" id="single-appointments">
+    <!--<a href="\#/tags/#= id #/posts" class="label label-info">#= name #</a>-->
+    <li> #= description #  #= subject#   #= appointmentDate # #= duration #  #= state #</li>
+</script>

@@ -1,0 +1,13 @@
+﻿<div class="panel panel-default ">
+    <div class="panel-heading">Todo Lists</div>
+    <div class="panel-body">
+        <ol data-template="single-list" data-bind="source: lists"></ol>
+    </div>
+
+    <input type="text" placeholder="Title" id="todolistTitle" />
+    <a href="#/todo-lists/add">Add new empty todo list</a>
+</div>
+
+<script type="text/x-kendo-template" id="single-list">
+    <li>  <a href="\#/todo-list/#= id #" class="label label-info">#= title #</a></li>
+</script>

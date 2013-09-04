@@ -1,0 +1,18 @@
+﻿<h1>
+    todo-list: <b data-bind="text : title"></b>
+</h1>
+<div>
+    <ol data-template="single-todo" data-bind="source: todos"></ol>
+</div>
+
+<input type="text" placeholder="Title" id="todoTitle" data-bind="value:text"/>
+<button data-bind="click: addTodo"> Add new todo </button>
+    
+
+    <script type="text/x-kendo-template" id="single-todo">
+        <li class="done-#=isDone#">
+            <strong> #= text #  </strong>
+            <a href="\#/todos/changeState/#= id #" class="label label-info">Change State </a>
+        </li>
+    </script>
+

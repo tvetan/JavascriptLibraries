@@ -1,0 +1,5 @@
+C:\Users\1\Desktop\TasksManager\TasksManager.Models\bin\Debug\TasksManager.Models.dll
+C:\Users\1\Desktop\TasksManager\TasksManager.Models\bin\Debug\TasksManager.Models.pdb
+C:\Users\1\Desktop\TasksManager\TasksManager.Models\obj\Debug\TasksManager.Models.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\TasksManager\TasksManager.Models\obj\Debug\TasksManager.Models.dll
+C:\Users\1\Desktop\TasksManager\TasksManager.Models\obj\Debug\TasksManager.Models.pdb
